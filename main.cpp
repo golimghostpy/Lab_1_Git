@@ -16,6 +16,18 @@ float sectorSquare(float r, float degree){
     return circleSquare(r) / 360 * degree;
 }
 
+float rectPerimetr(float a, float b){
+    return 2 * (a + b);
+}
+
+float rectSquare(float a, float b){
+    return a * b;
+}
+
+float diagonalLength(float a, float b){
+    return sqrt(pow(a, 2) + pow(b, 2));
+}
+
 int main()
 {
     int figure;
