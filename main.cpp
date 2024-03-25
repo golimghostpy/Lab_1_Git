@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-#include <iomanip> // ndjksfn
+#include <iomanip> // kommentariy
 
 using namespace std;
 
